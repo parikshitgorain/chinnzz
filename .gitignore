@@ -1,0 +1,29 @@
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+
+# Node / tooling (no build step today, but keep future tools out)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cloudflare / Wrangler
+.wrangler/
+.dev.vars
+
+# Local output
+dist/
+.tmp/
+*.log
