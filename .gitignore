@@ -27,3 +27,8 @@ pnpm-debug.log*
 dist/
 .tmp/
 *.log
+
+# Build output and local data
+site/_site/
+admin/data/
+site/_site

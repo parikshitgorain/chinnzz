@@ -9,7 +9,7 @@ version: 2.0
 
 # Design System
 
-> Structure and rules are stable. Palette and type values are provisional until ADR 0005 selects a direction. Token names are final so the build can map them 1:1 to CSS custom properties. Values below use direction A, Hectic crimson, as the reference. They change only after design sign-off.
+> Structure and rules are stable. ADR 0005 (2026-10-23) approved **Direction C, Casino luxury, refined as "Gold Noir"**: gold is the only brand accent, crimson is reserved for error states, the deep green is dropped, the supplied gold-on-black logo is the brand mark, display type is Cormorant Garamond and body type is Inter. Token names are final so the build can map them 1:1 to CSS custom properties.
 
 ## Principles
 
@@ -24,27 +24,28 @@ version: 2.0
 
 ## Color tokens
 
-Define on `:root`. Direction A values are provisional.
+Define on `:root`. Gold Noir values are final.
 
-| Token | Purpose | Direction A value |
+| Token | Purpose | Gold Noir value |
 |---|---|---|
-| `--bg` | Page background | `#080506` |
-| `--bg-elevated` | Alternating section background | `#0D0709` |
-| `--surface` | Cards and panels | `#140A0D` |
-| `--surface-raised` | Raised card | `#1D0D12` |
-| `--surface-hover` | Card hover | `#241017` |
-| `--border` | Default border | `#3A161D` |
-| `--border-strong` | Focused or active border | `#69202C` |
-| `--text` | Primary text | `#F7EFF1` |
-| `--text-muted` | Secondary text | `#B9A0A6` |
-| `--text-faint` | Metadata and footnotes | `#8D737A` |
-| `--accent` | Primary brand accent | `#E11D2E` |
-| `--accent-bright` | Hover and highlight | `#FF3B4E` |
-| `--accent-contrast` | Text on accent | `#FFFFFF` |
+| `--bg` | Page background | `#0A0806` |
+| `--bg-elevated` | Alternating section background | `#100C08` |
+| `--surface` | Cards and panels | `#16110B` |
+| `--surface-raised` | Raised card | `#1E1710` |
+| `--surface-hover` | Card hover | `#251C12` |
+| `--border` | Default border | `#2B2115` |
+| `--border-strong` | Focused or active border | `#6B4E23` |
+| `--text` | Primary text | `#F6F0E4` |
+| `--text-muted` | Secondary text | `#B9A98F` |
+| `--text-faint` | Metadata and footnotes | `#8C7C64` |
+| `--accent` | Primary brand accent | `#D4AF37` |
+| `--accent-bright` | Hover and highlight | `#E8C85A` |
+| `--accent-deep` | Dark gold, safe against the page bg | `#8A6D1F` |
+| `--accent-contrast` | Text on accent | `#0A0806` |
 | `--live` | Live status | `#22C55E` |
 | `--live-contrast` | Text on live | `#04140A` |
-| `--danger` | Errors and warnings | `#F59E0B` |
-| `--focus` | Focus ring | `#FFB3BC` |
+| `--danger` | Errors and warnings only | `#C1121F` |
+| `--focus` | Focus ring | `#F3D98B` |
 
 Rules:
 
@@ -52,8 +53,9 @@ Rules:
 - Never convey state by color alone. The live dot also has text. Errors also have text.
 - Gradients only behind decorative elements, never behind body copy.
 - No pure black `#000` or pure white `#FFF` for large areas.
-- Red is not used for body copy.
-- The red glow is a single brand device, not a default shadow on every card.
+- Crimson is never used for body copy or decoration. It appears only in error and warning states.
+- Gold is the only brand accent. It is used for thin rules, small accents, key CTAs, the code card shine and the hero glow, never as a large fill.
+- The gold glow is a single brand device, not a default shadow on every card.
 
 ## Typography
 
@@ -71,8 +73,8 @@ Rules:
 
 - Maximum two font families. Self-hosted WOFF2, subset to Latin.
 - `font-display: swap`. Preload the display face only.
-- Display face direction A: a heavy condensed or wide grotesque. Body: Inter or Manrope.
-- Do not use a stock font with a glow as the wordmark. The wordmark gets custom lettering or a deliberate treatment.
+- Display face: Cormorant Garamond 600 and 700, echoing the logo's serif wordmark. Body: Inter 400, 500, 600 and 700.
+- Do not use a stock font with a glow as the wordmark. The supplied logo is the brand mark.
 - Minimum body size on mobile is 16px.
 
 ## Spacing scale
@@ -135,6 +137,7 @@ States: default, hover, active, focus-visible, disabled, loading. Minimum height
 - Reserve width for the viewer count to avoid shift.
 - `aria-live="polite"` for live and offline transitions only.
 - The pill is allowed the accent glow. Nothing else competes with it.
+- The hero mark uses the supplied logo with the gold glow. Nothing else competes with it.
 
 ### Card
 
@@ -197,7 +200,7 @@ The admin shares color, type and spacing tokens but uses a calmer density.
 - No hover-only actions.
 - The offline banner is persistent and plain.
 - The publish result is text, not an endless spinner.
-- Admin screens do not use the red glow or marketing visuals. They are a tool.
+- Admin screens do not use the gold glow or marketing visuals. They are a tool.
 
 ## Iconography
 

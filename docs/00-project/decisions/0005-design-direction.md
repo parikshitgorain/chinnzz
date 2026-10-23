@@ -1,22 +1,22 @@
 ---
 title: "ADR 0005: Design direction"
-status: draft
-owner: chinnzz
-updated: 2026-10-17
+status: approved
+owner: Parik
+updated: 2026-10-23
 audience: internal
-version: 0.2
+version: 1.0
 ---
 
 # ADR 0005: Design direction
 
-- **Status:** draft, awaiting mockup review
-- **Date:** 2026-10-17
+- **Status:** approved
+- **Date:** 2026-10-23
 - **Decision owner:** chinnzz
 - **Supersedes:** none
 
 ## Context
 
-Four visual directions are proposed in the [Moodboard](../../02-design/moodboard.md). All four will be built as high-fidelity mockups on the same mobile-first wireframe:
+Four visual directions are proposed in the [Moodboard](../../02-design/moodboard.md). chinnzz supplied a gold-on-black logo with a serif CHINNZZ wordmark and chose the luxury direction to match it.
 
 - **A. Hectic crimson**
 - **B. Dark neon gaming**
@@ -27,26 +27,37 @@ The direction must feel credible for a Kick streamer, work at 360px first, meet 
 
 ## Decision
 
-**TBD after the M5 mockup review.** Record the chosen direction, palette, type and any hybrid choices here.
+**Direction C, Casino luxury, refined as "Gold Noir".** The supplied gold-on-black logo is the anchor, so the theme extends it rather than competing with it:
+
+- Gold (`#D4AF37` family) is the **only** brand accent. It is used for thin rules, small accents, key CTAs, the code card shine and the hero glow. It never fills large areas.
+- Crimson is reserved for error and danger semantics only. It is never a decorative brand color, which keeps the design out of the crowded gold-and-red casino cliche.
+- The moodboard's deep green is dropped. It fought the gold.
+- Display type is Cormorant Garamond (self-hosted WOFF2), echoing the logo's serif wordmark. Body type is Inter.
+- Surfaces are warm near-black (`#0A0806` family), not neutral gray, so the gold reads as gold against them.
+- The supplied logo is used as the hero avatar, header mark, social preview image and touch icon. No AI-generated hero art.
 
 ## Consequences
 
-To be completed with the decision.
+- The [Design System](../../02-design/design-system.md) carries the final Gold Noir tokens below. Token names are unchanged, so the build maps them 1:1 to CSS custom properties.
+- Crimson and deep green leave the palette. Any component that used them is re-specified in gold or neutral.
+- The code card, live pill and primary CTAs are gold or green (live) on near-black. Body copy is neutral warm white at AA or better.
+- The supplied logo is the only brand mark. No AI hero art, no stock wordmark.
 
 ## Alternatives considered
 
 | Option | Notes |
 |---|---|
-| A. Hectic crimson | Closest to the client reference. Near black, red glow, centered avatar and wordmark. |
-| B. Dark neon gaming | Violet and cyan, condensed display type, high streamer energy. |
-| C. Casino luxury | Black, gold and crimson, serif display, premium feel. |
-| D. Clean minimal dark | Neutral dark, one accent, typography led, restrained. |
+| A. Hectic crimson | Closest to the client reference. Near black, red glow, centered avatar and wordmark. Rejected: the client's own logo is gold, not red, and a red-led theme would fight it. |
+| B. Dark neon gaming | Violet and cyan, condensed display type, high streamer energy. Rejected: the violet and cyan palette is the default AI look and dates fast. |
+| C. Casino luxury | Black, gold and serif display, premium feel. **Chosen**, refined as Gold Noir. |
+| D. Clean minimal dark | Neutral dark, one accent, typography led, restrained. Rejected: least immediately streamer, and it would orphan the supplied gold logo. |
 
 ## Follow-up
 
-- [ ] Build `mockup.html` with all four directions. Owner: Parik. Milestone M5.
-- [ ] Collect client feedback in [Mockup Review](../../02-design/mockup-review.md). Owner: chinnzz. Milestone M5.
-- [ ] Sign off, then fill this ADR and the [Design System](../../02-design/design-system.md). Owner: both. Milestone M5.
+- [x] Direction chosen by chinnzz: C, Casino luxury, refined as Gold Noir. Owner: Parik. Milestone M5.
+- [x] Final tokens and type recorded in [Design System](../../02-design/design-system.md).
+- [x] Supplied logo added as brand mark. Owner: Parik. Milestone M5.
+- [x] Mockup gate folded into the logo-led direction choice. `mockup.html` not required for v1.
 
 ## Related documents
 

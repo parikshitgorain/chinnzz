@@ -11,7 +11,7 @@ version: 2.0
 
 ## Current phase
 
-**M0 and M1.** The documentation set is being revised for the current scope: a managed single page hub, an admin, no sponsor at launch, and mobile-first design. No site code is written until the revised docs and design gates are approved.
+**M7.** The client approved Direction C (Gold Noir) with the supplied gold logo on 2026-10-23 and asked to go live. The public site is being built from `content/` now. No site code is written until the revised docs and design gates are approved.
 
 ## Milestones
 
@@ -22,9 +22,9 @@ version: 2.0
 | M2 | Brand and content | Brand brief, voice, copy deck, monetization, asset checklist | Parik and chinnzz | Content approved or placeholders accepted | in review |
 | M3 | Moodboard, four directions | Direction intent, palettes, human-craft rules | Parik | Shortlist approved | in review |
 | M4 | IA and mobile wireframe | Section order, 360px first layout | Parik | Layout approved on a phone | review |
-| M5 | Four mockups and design system | `mockup.html`, review, chosen direction, tokens | Parik and chinnzz | **Design sign-off** | not started |
+| M5 | Four mockups and design system | `mockup.html`, review, chosen direction, tokens | Parik and chinnzz | **Design sign-off** | done (Direction C, Gold Noir, 2026-10-23) |
 | M6 | Technical and legal docs | Architecture, content model, API, SEO, performance, analytics, security, legal | Parik | Docs approved | in progress |
-| M7 | Public build | Eleventy site from `content/` | Parik | Matches approved design | not started |
+| M7 | Public build | Eleventy site from `content/` | Parik | Matches approved design | in progress |
 | M8 | Kick live | `/api/live` and the three states | Parik | Live, offline and failure verified | not started |
 | M9 | Admin with local adapter | Express, EJS, SQLite, full content editing | Parik | Edit and publish from a phone | not started |
 | M10 | Public launch | Domain, Cloudflare, QA, go live | Parik and chinnzz | Live on chinnzz.com | blocked on domain |

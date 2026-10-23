@@ -6,7 +6,8 @@ Single-page hub and admin for **chinnzz**, a Kick streamer and community builder
 - **X:** https://x.com/lechinnzz
 - **Discord:** https://discord.gg/T6Nx6fAMYk
 - **Production domain:** `chinnzz.com`, available but not purchased yet
-- **Status:** Documentation and design phase. No site code yet.
+- **Status:** Public site built and verified locally. Awaiting push approval, Cloudflare Pages connection and the domain purchase for launch.
+- **Theme:** Gold Noir (Direction C, Casino luxury, approved 2026-10-23). Gold is the only brand accent. The client's supplied gold-on-black logo is the brand mark.
 
 ## Start here
 
@@ -42,8 +43,8 @@ The admin edits content and publishes through a git commit and Cloudflare deploy
 
 - Git initialized on branch `main`
 - Remote: `https://github.com/parikshitgorain/chinnzz.git`
-- Current contents: `docs/` only
-- No commit or push made yet
+- Current contents: `docs/`, `site/` (Eleventy public site), `content/`, `functions/`, `public/`, `admin/` (M9 skeleton)
+- Push to origin requires the client's go-ahead. Nothing is pushed without approval.
 
 ## Planned commands
 
