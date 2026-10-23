@@ -30,11 +30,11 @@ v1 is one public page. Leaderboard, raffle, deposits and prize mechanics are not
 | Layer | Choice |
 |---|---|
 | Public site | Eleventy 3.x with Nunjucks, hand-written CSS and vanilla JavaScript |
-| Hosting | Cloudflare Pages |
+| Hosting | Vercel (ADR 0009; supersedes the earlier Cloudflare Pages decision) |
 | Content | Versioned files in `content/` |
 | Admin | Node.js, Express, EJS and SQLite |
 | Admin host | Local first, VPS later at a separate host such as `admin.chinnzz.com` |
-| Live status | Cloudflare Pages Function at `/api/live` |
+| Live status | Vercel Serverless Function at `/api/live` |
 | Fallback | The public site is static and never calls the admin or backend at runtime |
 
 The admin edits content and publishes through a git commit and Cloudflare deploy hook. If the backend is unavailable, the last static build stays live. See [Architecture](docs/03-technical/architecture.md).

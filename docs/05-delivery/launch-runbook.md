@@ -11,7 +11,7 @@ version: 2.0
 
 Two launches:
 
-- **Public site.** Static, Cloudflare Pages. Can happen before the admin exists.
+- **Public site.** Static, Vercel. Can happen before the admin exists.
 - **Admin.** Express and SQLite on a VPS at `admin.chinnzz.com`. Happens after the VPS is ready.
 
 Do not skip the ownership steps. chinnzz must own the domain and the accounts.
@@ -21,7 +21,7 @@ Do not skip the ownership steps. chinnzz must own the domain and the accounts.
 - [ ] M1 to M9 complete. QA checklist passed.
 - [ ] chinnzz approved final copy, design and legal wording.
 - [ ] `chinnzz.com` is purchased or the purchase is ready.
-- [ ] chinnzz has a Cloudflare account.
+- [ ] chinnzz has a Vercel account, or the developer's Vercel account hosts the project.
 - [ ] The GitHub repository is ready and `main` is the release branch.
 - [ ] Final assets are in `content/media/`.
 
@@ -35,31 +35,30 @@ Do not skip the ownership steps. chinnzz must own the domain and the accounts.
 
 Domain cost is chinnzz's responsibility. See the [SOW](../00-project/scope-and-sow.md).
 
-## 2. Create the Cloudflare Pages project
+## 2. Create the Vercel project
 
-1. Sign in to Cloudflare on chinnzz's account. Add the developer as a member if needed.
-2. Workers and Pages, then Create, then Pages, then Connect to Git.
+1. Sign in to Vercel. Add the developer to the team if needed.
+2. Add New, Project, then Import from Git.
 3. Select `parikshitgorain/chinnzz`.
 4. Build settings:
-   - Framework preset: None
+   - Framework preset: Other
    - Build command: `npm run build:site`
-   - Build output directory: `site/_site`
-   - Node version: 22
-5. Deploy. Confirm the `*.pages.dev` URL renders.
+   - Output directory: `site/_site`
+   - Node version: 22.x
+5. Deploy. Confirm the `*.vercel.app` URL renders.
 6. Check `/api/live` returns JSON on the preview URL.
 7. Confirm the admin is not part of this build. There should be no `/admin` route.
 
 ## 3. Add the custom domain
 
-1. In the Pages project, open Custom domains, then Set up a domain.
-2. Add `chinnzz.com` and `www.chinnzz.com`.
-3. If the domain is not on Cloudflare DNS yet, add the site to Cloudflare and update the nameservers at the registrar.
-4. Canonical host: apex `chinnzz.com`. Redirect `www` to apex.
-5. Wait for the certificate and verify HTTPS.
+1. In the Vercel project, open Settings, Domains, then add `chinnzz.com` and `www.chinnzz.com`.
+2. Point the domain at Vercel with an A record (apex) or CNAME (`www`), or move DNS to Vercel.
+3. Canonical host: apex `chinnzz.com`. Redirect `www` to apex.
+4. Wait for the certificate and verify HTTPS.
 
 ## 4. DNS and redirects
 
-- [ ] Apex resolves to the Pages project.
+- [ ] Apex resolves to the Vercel project.
 - [ ] `www` redirects to the apex.
 - [ ] No conflicting A, AAAA or CNAME records.
 - [ ] DNSSEC enabled if the registrar supports it.
@@ -121,7 +120,7 @@ Admin verification:
 
 ## 8. Handover
 
-- [ ] Give chinnzz access to GitHub, Cloudflare, the registrar and the VPS.
+- [ ] Give chinnzz access to GitHub, Vercel, the registrar and the VPS.
 - [ ] Walk through [Handover](handover.md).
 - [ ] Confirm chinnzz can edit a section, preview it, publish it and see the live change.
 - [ ] Confirm he knows how to use the manual file fallback.
@@ -131,16 +130,16 @@ Admin verification:
 
 Public:
 
-1. Open Cloudflare Pages, then Deployments.
+1. Open the Vercel project, then Deployments.
 2. Find the last known good production deployment.
 3. Roll back to it.
 4. Fix on a branch, retest on preview, then deploy to `main`.
-5. If DNS is the cause, revert the DNS change in Cloudflare.
+5. If DNS is the cause, revert the DNS change.
 
 Content:
 
 1. Revert the publish commit in git.
-2. Push. Cloudflare rebuilds.
+2. Push. Vercel rebuilds.
 3. Confirm the previous content is live.
 
 Admin:

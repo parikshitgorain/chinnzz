@@ -27,7 +27,7 @@ version: 2.0
 | M7 | Public build | Eleventy site from `content/` | Parik | Matches approved design | in progress |
 | M8 | Kick live | `/api/live` and the three states | Parik | Live, offline and failure verified | not started |
 | M9 | Admin with local adapter | Express, EJS, SQLite, full content editing | Parik | Edit and publish from a phone | not started |
-| M10 | Public launch | Domain, Cloudflare, QA, go live | Parik and chinnzz | Live on chinnzz.com | blocked on domain |
+| M10 | Public launch | Domain, Vercel, QA, go live | Parik and chinnzz | Live on chinnzz.com | blocked on domain |
 | M11 | VPS admin | Real admin host, auth, publish hook | Parik | Admin live, fallback verified | after launch |
 | M12 | Handover | Training, access, documentation walkthrough | Parik | chinnzz can edit and publish alone | not started |
 

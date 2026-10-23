@@ -1,13 +1,15 @@
 ---
 title: "ADR 0003: Cloudflare Pages hosting"
-status: approved
+status: superseded
 owner: Parik
-updated: 2026-10-17
+updated: 2026-10-23
 audience: internal
-version: 1.1
+version: 1.2
 ---
 
 # ADR 0003: Cloudflare Pages hosting
+
+> **Superseded by [ADR 0009](0009-vercel-hosting.md) on 2026-10-23.** The client asked to deploy on Vercel. The record below is kept for history.
 
 - **Status:** approved
 - **Date:** 2026-10-17
