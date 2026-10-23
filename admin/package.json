@@ -1,0 +1,1 @@
+{"dependencies":{"express":"^5.1.0"},"description":"chinnzz admin panel. Local first, VPS later. Full content editing ships in M9.","name":"chinnzz-admin","private":true,"scripts":{"start":"node src/index.js"},"type":"module","version":"0.1.0"}

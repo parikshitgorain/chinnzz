@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+---
+{% set doc = legal[legalPage] %}
+<article class="legal">
+  <div class="container container-narrow">
+    <p class="section-label">{{ doc.title }}</p>
+    <div class="legal-body">
+      {{ doc.html | safe }}
+    </div>
+    <p class="legal-draft">Draft for review. This page is not legal advice and is under review by a qualified professional.</p>
+    {% if doc.lastUpdated %}<p class="legal-updated">Last updated {{ doc.lastUpdated }}.</p>{% endif %}
+  </div>
+</article>

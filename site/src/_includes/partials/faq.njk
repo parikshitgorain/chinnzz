@@ -1,0 +1,19 @@
+{% from "partials/icons.njk" import icon %}
+{% set faq = cms.sections.faq %}
+<section class="section" id="faq">
+  <div class="container container-narrow">
+    <p class="section-label">{{ faq.label }}</p>
+    <h2 class="section-heading">{{ faq.heading }}</h2>
+    <div class="faq-list">
+      {% for item in faq.items %}
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span>{{ item.q }}</span>
+          {{ icon("chevron") }}
+        </summary>
+        <div class="faq-answer"><p>{{ item.a }}</p></div>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,1 @@
+{"devDependencies":{"@11ty/eleventy":"^3.0.0","gray-matter":"^4.0.3","markdown-it":"^14.1.0"},"name":"chinnzz-site","private":true,"scripts":{"build":"eleventy","dev":"eleventy --serve"},"type":"module","version":"1.0.0"}

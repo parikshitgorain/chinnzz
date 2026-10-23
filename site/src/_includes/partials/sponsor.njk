@@ -1,0 +1,23 @@
+{% from "partials/icons.njk" import icon %}
+{% set sponsor = cms.sections.sponsor %}
+<section class="section" id="sponsor">
+  <div class="container">
+    <p class="section-label">{{ sponsor.label }}</p>
+    <h2 class="section-heading">{{ sponsor.heading }}</h2>
+    <p class="section-lede">{{ sponsor.body }}</p>
+    {% if cms.site.sponsorEmail %}
+    <a class="btn btn-secondary" href="mailto:{{ cms.site.sponsorEmail }}">
+      {{ icon("mail") }}<span>{{ sponsor.emailLabel }}</span>
+    </a>
+    {% else %}
+    <p class="pending-note">{{ sponsor.pendingEmailNote }}</p>
+    {% endif %}
+    <p class="sponsor-response">{{ sponsor.responseNote }}</p>
+    {% if sponsor.audience %}
+    <div class="audience-block">
+      <p class="section-label">{{ sponsor.audienceHeading }}</p>
+      <p>{{ sponsor.audience.followers }} followers and {{ sponsor.audience.averageViewers }} average viewers. Last updated {{ sponsor.audience.lastUpdated }}.</p>
+    </div>
+    {% endif %}
+  </div>
+</section>

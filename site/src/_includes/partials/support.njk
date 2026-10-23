@@ -1,0 +1,20 @@
+{% from "partials/icons.njk" import icon %}
+{% set support = cms.sections.support %}
+<div class="duo-cell" id="support">
+  <p class="section-label">{{ support.label }}</p>
+  <h2 class="section-heading">{{ support.heading }}</h2>
+  <p class="section-lede">{{ support.body }}</p>
+  <div class="support-actions">
+    {% if support.kickSubscribe.enabled %}
+    <a class="btn btn-primary" href="{{ support.kickSubscribe.url }}" target="_blank" rel="noopener noreferrer">
+      {{ icon("kick") }}<span>{{ support.kickSubscribe.label }}</span>
+    </a>
+    {% endif %}
+    {% if support.tips.enabled %}
+    <a class="btn btn-secondary" href="{{ support.tips.url }}" target="_blank" rel="noopener noreferrer">
+      <span>{{ support.tips.label }}</span>
+    </a>
+    {% endif %}
+  </div>
+  <p class="support-note">{{ support.note }}</p>
+</div>

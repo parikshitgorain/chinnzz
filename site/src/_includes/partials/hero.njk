@@ -1,0 +1,33 @@
+{% from "partials/icons.njk" import icon %}
+{% set hero = cms.sections.hero %}
+<section class="hero" id="top">
+  <div class="container hero-inner">
+    <img class="hero-avatar"
+         src="{{ cms.site.media.logo }}"
+         alt="{{ hero.avatarAlt }}"
+         width="320" height="320" fetchpriority="high">
+    <p class="eyebrow">{{ hero.eyebrow }}</p>
+    <h1 class="hero-title">{{ hero.h1 }}</h1>
+    <p class="hero-sub">{{ hero.subhead }}</p>
+    <p class="live-pill" id="livePill" aria-live="polite" data-state="unknown">
+      <span class="live-dot" aria-hidden="true"></span>
+      <span class="live-text" id="liveText">{{ cms.sections.live.loadingLabel }}</span>
+    </p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" id="watchCta" href="{{ cms.site.kick.url }}" target="_blank" rel="noopener noreferrer">
+        {{ icon("kick") }}<span>{{ hero.primaryCtaOffline }}</span>
+      </a>
+      <a class="btn btn-secondary" href="{{ cms.site.discord.url }}" target="_blank" rel="noopener noreferrer">
+        {{ icon("discord") }}<span>{{ hero.secondaryCta }}</span>
+      </a>
+    </div>
+    <ul class="hero-socials" aria-label="{{ hero.socialStripLabel }}">
+      <li><a href="{{ cms.site.kick.url }}" target="_blank" rel="noopener noreferrer">Kick</a></li>
+      <li aria-hidden="true">·</li>
+      <li><a href="{{ cms.site.x.url }}" target="_blank" rel="noopener noreferrer">X</a></li>
+      <li aria-hidden="true">·</li>
+      <li><a href="{{ cms.site.discord.url }}" target="_blank" rel="noopener noreferrer">Discord</a></li>
+    </ul>
+  </div>
+</section>
+<div class="ornament" aria-hidden="true"><span></span></div>

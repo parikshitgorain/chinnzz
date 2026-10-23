@@ -1,0 +1,19 @@
+{% from "partials/icons.njk" import icon %}
+{% set live = cms.sections.live %}
+<section class="section" id="stream">
+  <div class="container">
+    <p class="section-label">{{ live.label }}</p>
+    <div class="stream-card" id="streamCard" data-state="unknown"
+         data-neutral-heading="{{ live.neutralHeading }}" data-neutral-body="{{ live.neutralBody }}"
+         data-offline-heading="{{ live.offlineHeading }}" data-offline-body="{{ live.offlineBody }}"
+         data-live-heading="{{ live.liveLabel }}" data-live-suffix="{{ live.liveWatchersSuffix }}">
+      <div class="stream-info">
+        <p class="stream-status" id="streamStatus">{{ live.neutralHeading }}</p>
+        <p class="stream-title" id="streamTitle">{{ live.neutralBody }}</p>
+      </div>
+      <a class="btn btn-primary" id="streamCta" href="{{ cms.site.kick.url }}" target="_blank" rel="noopener noreferrer">
+        {{ icon("kick") }}<span>{{ live.watchLabel }}</span>
+      </a>
+    </div>
+  </div>
+</section>

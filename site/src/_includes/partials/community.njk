@@ -1,0 +1,23 @@
+{% from "partials/icons.njk" import icon %}
+{% set community = cms.sections.community %}
+{% set about = cms.sections.about %}
+<section class="section" id="community">
+  <div class="container duo">
+    <div class="duo-block">
+      <p class="section-label">{{ community.label }}</p>
+      <h2 class="section-heading">{{ community.heading }}</h2>
+      <p class="section-lede">{{ community.body }}</p>
+      <a class="btn btn-primary" href="{{ community.url }}" target="_blank" rel="noopener noreferrer">
+        {{ icon("discord") }}<span>{{ community.cta }}</span>
+      </a>
+    </div>
+    <div class="duo-block" id="about">
+      <p class="section-label">{{ about.label }}</p>
+      <h2 class="section-heading">{{ about.heading }}</h2>
+      <p class="section-lede">{{ about.body }}</p>
+      <a class="btn btn-ghost" href="{{ about.url }}" target="_blank" rel="noopener noreferrer">
+        <span>{{ about.cta }}</span> {{ icon("external") }}
+      </a>
+    </div>
+  </div>
+</section>

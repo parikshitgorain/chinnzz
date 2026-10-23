@@ -1,0 +1,25 @@
+{% from "partials/icons.njk" import icon %}
+{% set play = cms.sections.play %}
+{% set stake = cms.site.stake %}
+{% set state = play.states[stake.state] %}
+<div class="duo-cell" id="play">
+  <p class="section-label">{{ play.label }}</p>
+  <h2 class="section-heading">{{ play.heading }}</h2>
+  <p class="section-lede">{{ play.body }}</p>
+  <div class="code-card" data-state="{{ stake.state }}">
+    <p class="code-heading">{{ state.heading }}</p>
+    {% if stake.state == "inactive" %}
+      <p class="code-body">{{ state.body }}</p>
+    {% else %}
+      <div class="code-row">
+        <code class="code-value" id="codeValue">{{ stake.code }}</code>
+        <button class="btn btn-code" id="copyCode" type="button" aria-live="polite">
+          {{ icon("copy") }}<span>{{ play.copyLabel }}</span>
+        </button>
+      </div>
+      <p class="code-body">{{ state.body | replace("{CODE}", stake.code) }}</p>
+    {% endif %}
+    <p class="code-disclosure">{{ state.disclosure }}</p>
+    <a class="code-stake" href="{{ play.stakeUrl }}" target="_blank" rel="noopener noreferrer">{{ play.openLabel }} {{ icon("external") }}</a>
+  </div>
+</div>

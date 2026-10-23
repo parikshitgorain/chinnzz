@@ -1,0 +1,1 @@
+{"description":"chinnzz.com: single-page hub and admin for Kick streamer chinnzz.","name":"chinnzz","private":true,"scripts":{"admin":"npm run start --workspace=chinnzz-admin","build:site":"npm run build --workspace=chinnzz-site","dev":"npm run dev --workspace=chinnzz-site"},"version":"1.0.0","workspaces":["site","admin"]}

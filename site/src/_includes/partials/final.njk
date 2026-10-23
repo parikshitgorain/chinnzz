@@ -1,0 +1,16 @@
+{% from "partials/icons.njk" import icon %}
+{% set final = cms.sections.final %}
+<section class="final-cta">
+  <div class="container container-narrow final-inner">
+    <h2 class="section-heading">{{ final.heading }}</h2>
+    <p class="section-lede">{{ final.body }}</p>
+    <div class="final-actions">
+      <a class="btn btn-primary" href="{{ final.primary.url }}" target="_blank" rel="noopener noreferrer">
+        {{ icon("discord") }}<span>{{ final.primary.label }}</span>
+      </a>
+      <a class="btn btn-secondary" href="{{ final.secondary.url }}" target="_blank" rel="noopener noreferrer">
+        <span>{{ final.secondary.label }}</span>
+      </a>
+    </div>
+  </div>
+</section>

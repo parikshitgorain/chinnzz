@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <link rel="canonical" href="{{ canonical }}">
+  <meta name="robots" content="{{ env.robots }}">
+  <meta name="theme-color" content="{{ cms.site.seo.themeColor }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="chinnzz">
+  <meta property="og:title" content="{{ ogTitle }}">
+  <meta property="og:description" content="{{ ogDescription }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:image" content="{{ cms.site.canonicalBase }}{{ cms.site.media.ogImage }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="chinnzz, Kick streamer">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ ogTitle }}">
+  <meta name="twitter:description" content="{{ ogDescription }}">
+  <meta name="twitter:image" content="{{ cms.site.canonicalBase }}{{ cms.site.media.ogImage }}">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" href="/fonts/cormorant-garamond-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "{{ cms.site.canonicalBase }}/#person",
+        "name": "chinnzz",
+        "url": "{{ cms.site.canonicalBase }}/",
+        "sameAs": [
+          "{{ cms.site.kick.url }}",
+          "{{ cms.site.x.url }}",
+          "{{ cms.site.discord.url }}"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "{{ cms.site.canonicalBase }}/#website",
+        "url": "{{ cms.site.canonicalBase }}/",
+        "name": "chinnzz",
+        "publisher": { "@id": "{{ cms.site.canonicalBase }}/#person" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% include "partials/header.njk" %}
+  <main id="main">
+    {{ content | safe }}
+  </main>
+  {% include "partials/footer.njk" %}
+  <script src="/js/main.js" defer></script>
+</body>
+</html>

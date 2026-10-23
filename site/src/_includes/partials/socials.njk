@@ -1,0 +1,18 @@
+{% from "partials/icons.njk" import icon %}
+{% set socials = cms.sections.socials %}
+<section class="section" id="socials">
+  <div class="container">
+    <p class="section-label">{{ socials.label }}</p>
+    <h2 class="section-heading">{{ socials.heading }}</h2>
+    <div class="social-grid">
+      {% for card in socials.cards %}
+      <a class="social-card" href="{{ card.url }}" target="_blank" rel="noopener noreferrer">
+        <span class="social-icon">{{ icon(card.icon) }}</span>
+        <span class="social-name">{{ card.name }}</span>
+        <span class="social-handle">{{ card.handle }}</span>
+        <span class="social-cta">{{ card.cta }} {{ icon("external") }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

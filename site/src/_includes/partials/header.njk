@@ -1,0 +1,30 @@
+{% from "partials/icons.njk" import icon %}
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a class="brand" href="#top" aria-label="chinnzz home">
+      <img class="brand-mark" src="{{ cms.site.media.logo }}" alt="" width="40" height="40">
+      <span class="brand-word" aria-hidden="true">CHINNZZ</span>
+    </a>
+    <nav class="site-nav" aria-label="Sections">
+      <a href="#stream">Stream</a>
+      <a href="#socials">Socials</a>
+      <a href="#support">Support</a>
+      <a href="#sponsor">Work with me</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-secondary btn-sm header-cta" href="{{ cms.site.discord.url }}" target="_blank" rel="noopener noreferrer">Join Discord</a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+      {{ icon("menu") }}
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu" hidden>
+    <nav aria-label="Mobile sections">
+      <a href="#stream">Stream</a>
+      <a href="#socials">Socials</a>
+      <a href="#support">Support</a>
+      <a href="#sponsor">Work with me</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn btn-primary" href="{{ cms.site.discord.url }}" target="_blank" rel="noopener noreferrer">Join the Discord</a>
+    </nav>
+  </div>
+</header>
