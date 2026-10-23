@@ -1,41 +1,50 @@
 ---
 title: Voice and Tone
-status: review
+status: approved
 owner: Parik
-updated: 2026-10-17
+updated: 2026-10-23
 audience: client
-version: 2.0
+version: 3.0
 ---
 
 # Voice and Tone
 
 ## Voice in one line
 
-Talk like a streamer talking to chat: short, direct, a little playful and never corporate.
+Talk like the community talks about their boy: casual, warm, a little chaotic, never corporate. Third person, like chat hyping up their streamer.
+
+## The my-boy rule
+
+The whole site talks about chinnzz the way his people do: **"my boy"**. Third person everywhere, never switching to first person mid-page. The reader is a friend of the community, not a customer.
+
+- "My boy goes live on Kick."
+- "Pull up. The chat is loud tonight."
+- "When my boy has something real to share, it lands here first."
 
 ## Principles
 
 1. **Short lines.** If a sentence can lose five words, cut them.
-2. **Say it plainly.** "Watch live" beats "Experience the stream."
-3. **Sound like a person.** Use contractions and casual punctuation.
+2. **Say it plainly.** "Watch my boy live" beats "Experience the stream."
+3. **Sound like chat.** Use contractions, slang and casual punctuation, but stay readable.
 4. **Never fake hype.** No guaranteed wins, invented numbers or fake urgency.
 5. **Respect the audience.** No pressure, no manipulation and no targeting minors.
-6. **Be honest about money.** Sponsorship, tips and affiliate relationships are stated in plain language.
+6. **Be honest about money.** Sponsorship, tips and affiliate relationships are stated in plain language, in the same voice as everything else.
 
 ## Do and do not
 
 | Do | Do not |
 |---|---|
-| "Watch chinnzz live on Kick." | "Experience next-level entertainment." |
-| "Join the Discord." | "Become part of our exclusive ecosystem." |
-| "Use my code when you play." | "Maximize your earning potential now." |
-| "Back soon. Check the schedule." | "HURRY. Limited time." |
-| "I am not sponsored. The code may earn me nothing." | Hide the relationship or imply a deal. |
+| "Watch my boy live on Kick." | "Experience next-level entertainment." |
+| "Join the Discord. Pull up." | "Become part of our exclusive ecosystem." |
+| "Use my boy's code when you play." | "Maximize your earning potential now." |
+| "My boy is offline. Back soon." | "HURRY. Limited time." |
+| "My boy is not sponsored. The code may earn him nothing." | Hide the relationship or imply a deal. |
 | "18+ or 21+ only. Play responsibly." | Ignore age and risk. |
+| "Pull up", "tap in", "run it up" | Corporate filler or AI vocabulary |
 
 ## Words we use
 
-live, stream, chat, community, join, code, schedule, back soon, watch, follow, Discord, Kick, support, sponsor.
+live, stream, chat, community, join, code, schedule, back soon, watch, follow, Discord, Kick, support, sponsor, my boy, pull up, tap in, run it up, no cap.
 
 ## Words we avoid
 
@@ -78,28 +87,30 @@ seamless, elevate, unleash, robust, curated, empower, game-changing, cutting-edg
 
 **Active, sponsored**
 
-> Use code `CHINNZZ` at Stake.com. chinnzz may earn a commission if you sign up through this link. It costs you nothing extra.
+> Use code `CHINNZZ` at Stake.com. My boy may earn a commission if you sign up through his link. Costs you nothing extra.
 
 **Active, unsponsored**
 
-> Code `CHINNZZ` at Stake.com. chinnzz is not sponsored. The code may earn him nothing. Only play if you are old enough and it is legal where you live.
+> Code `CHINNZZ` at Stake.com. My boy is not sponsored. The code may earn him nothing. Only play if you are old enough and it is legal where you live.
 
 **Inactive**
 
-> No code live right now. Follow on X or join the Discord. The code goes here when there is something real to share.
+> No code live right now. When my boy has something real to share, it lands here first. Follow on X or join the Discord so you do not miss it.
 
 ### Support the stream
 
-- Heading: **Support the stream**
-- Body: **Kick subscriptions and tips keep the stream going. No pressure. Watching and saying hi is support too.**
+- Heading: **Support my boy**
+- Body: **Kick subs and tips keep the streams coming. Watching and running up the chat is love too. No pressure. My boy appreciates all of it.**
 - Kick button: **Subscribe on Kick**
 - Tips button: **Tip on Ko-fi** or the chosen provider.
 
 ### Work with me
 
-- Heading: **Work with me**
-- Body: **I make live content for a Kick audience. If you want to sponsor the stream or work together, send me an email with what you have in mind.**
+- Heading: **Work with my boy**
+- Body: **My boy makes live content for a Kick audience that actually shows up. Want to sponsor the stream or work together? Hit the email and tell me what you got in mind.**
 - Button: **Email about sponsorship**
+- Email: **business@chinnzz.com** (mailbox to be created once the domain is bought)
+- Response note: **Every serious email gets read. If it is a fit, you will hear back with availability and rates.**
 - Audience block only with real numbers: **Audience: {real followers}, {real average viewers}. Last updated {date}.**
 
 ### Schedule
@@ -118,12 +129,12 @@ seamless, elevate, unleash, robust, curated, empower, game-changing, cutting-edg
 
 | Context | Tone |
 |---|---|
-| Hero | Confident, short, welcoming |
+| Hero | Confident, short, welcoming. "Pull up." energy. |
 | Live badge | Immediate, factual |
-| Code card | Casual, transparent |
+| Code card | Casual, transparent, my-boy voice |
 | Discord | Friendly, community first |
-| Sponsor section | Direct, professional, no hype |
-| FAQ | Plain answers, no jargon |
+| Sponsor section | Direct, no hype, still casual |
+| FAQ | Plain answers in the community voice |
 | Legal | Clear and sober, plain language where possible |
 
 ## Copy audit
@@ -136,6 +147,7 @@ Before a page ships, check every string for:
 - Fake numbers or urgency.
 - A label that does not state its action.
 - A claim that cannot be shown.
+- First-person slips. The site is third person ("my boy") everywhere.
 
 ## Related documents
 

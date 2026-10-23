@@ -35,7 +35,7 @@ version: 2.0
 │          CHINNZZ wordmark           │
 │      KICK STREAMER · COMMUNITY      │
 │        chinnzz live on Kick         │
-│   Streams, chat and the people...   │
+│   Pull up. Live streams, loud chat...   │
 │                                     │
 │   [ LIVE NOW · 1.2K watching ]      │
 │   [ Watch live on Kick ]            │
@@ -122,7 +122,7 @@ version: 2.0
 │                            CHINNZZ wordmark                           │
 │                         KICK STREAMER · COMMUNITY                     │
 │                           chinnzz live on Kick                        │
-│                Streams, chat and the people who make it worth it.     │
+│                Pull up. Live streams, loud chat and the people...    │
 │                                                                       │
 │                    [ LIVE NOW · 1.2K watching ]                       │
 │          [ Watch live on Kick ]        [ Join the Discord ]           │

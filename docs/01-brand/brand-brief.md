@@ -1,33 +1,33 @@
 ---
 title: Brand Brief
-status: review
+status: approved
 owner: Parik
-updated: 2026-10-17
+updated: 2026-10-23
 audience: client
-version: 2.0
+version: 3.0
 ---
 
 # Brand Brief: chinnzz
 
-> Draft based on the initial conversation and the Hectic reference. The client must confirm or correct the story before design sign-off.
+> Client approved the direction on 2026-10-23: Direction C (Casino luxury, refined as Gold Noir), the supplied gold-on-black logo as the brand mark, the third-person "my boy" community voice, and business@chinnzz.com as the sponsor email.
 
 ## Who chinnzz is
 
-chinnzz is a Kick streamer building a community around his live content. He is not a faceless casino site or a corporate affiliate brand. He is the person people come to watch, chat with and hang around. The site should feel like an extension of that: personal, direct and a little chaotic in a good way.
+chinnzz is a Kick streamer building a community around his live content. He is not a faceless casino site or a corporate affiliate brand. He is the person people come to watch, chat with and hang around. The site is an extension of that: personal, direct and a little chaotic in a good way.
 
-He is early in building the brand. There is no logo or established visual identity yet, so the design phase creates the foundation rather than working around an existing system.
+His brand mark is a gold-on-black logo with a serif CHINNZZ wordmark, supplied 2026-10-23. It anchors the Gold Noir identity.
 
 ## The story we are telling
 
-> "You found the stream. Here is where everything lives."
+> "You found my boy's stream. Here is where everything lives."
 
 A visitor should understand three things fast:
 
-1. This is chinnzz's official spot.
+1. This is my boy's official spot.
 2. Watch him live on Kick, or catch the next one.
 3. Join the community. Use the code when it is real and active.
 
-The site is a home base, not a casino. It does not sell gambling and never promises winnings. It shares what chinnzz is doing, where to watch and, when relevant, the code he uses.
+The site is a home base, not a casino. It does not sell gambling and never promises winnings. It shares what my boy is doing, where to watch and, when relevant, the code he uses.
 
 ## Current business reality
 
@@ -60,9 +60,9 @@ The brand is stronger if it says this plainly. Pretending to have a sponsor woul
 
 ## Personality
 
-Energetic, casual, straight talking, community first, self aware, slightly chaotic, not corporate.
+Energetic, casual, straight talking, community first, self aware, slightly chaotic, not corporate. The site talks about chinnzz the way his community does: third-person "my boy" voice, like chat hyping up their streamer.
 
-If the brand were a person: the friend in the Discord who tells you what he is playing, when he is live and what code to use, without making it weird.
+If the brand were a person: the boy in the Discord who tells you when my boy is live, what he is playing and what code to use, without making it weird.
 
 ## Message hierarchy
 
@@ -75,23 +75,17 @@ If the brand were a person: the friend in the Discord who tells you what he is p
 
 ## Visual territory
 
-Four directions are explored in the [Moodboard](../02-design/moodboard.md):
+Direction **C. Casino luxury**, refined as **Gold Noir**, approved 2026-10-23: warm near-black surfaces, gold as the only brand accent, Cormorant Garamond display, Inter body. The supplied gold-on-black logo is the brand mark: hero avatar, header mark, favicon and social preview image.
 
-- **A. Hectic crimson:** near black, red glow, centered avatar and wordmark. Closest to the client reference.
-- **B. Dark neon gaming:** violet and cyan, condensed type, streamer energy.
-- **C. Casino luxury:** black, gold and crimson, serif display, premium feel.
-- **D. Clean minimal dark:** neutral dark, one accent, typography led.
-
-The decision is made after the mockups. Whatever the direction, the site is dark first, mobile first, bold but readable, AA contrast and free of clutter.
+The site is dark first, mobile first, bold but readable, AA contrast and free of clutter.
 
 ## Human-made design rules
 
 - Start from Hectic's structure, not a generic SaaS or dashboard template.
-- Build a custom typographic wordmark. Do not use a default font with a glow.
-- Use real stream imagery or a portrait once supplied. No AI-generated hero art.
+- The supplied logo is the brand mark. No AI-generated hero art.
 - Tune spacing and type by hand at each breakpoint. Do not repeat one giant section padding down the page.
 - Avoid purple and blue AI gradients, glassmorphism, generic three-card feature grids, emoji section icons and stock dashboard visuals.
-- Red glow is a brand device, not a coat of paint on every element.
+- The gold glow is a brand device, used on the hero mark and the live state only.
 - Design the 360px screen first. Desktop is an adaptation.
 - No dead zones, oversized empty sections or orphan cards.
 
@@ -112,20 +106,21 @@ The decision is made after the mockups. Whatever the direction, the site is dark
 
 ## Brand constraints
 
-- No logo or imagery exists yet. The design must work with placeholders and produce a wordmark direction.
+- The supplied gold-on-black logo is the brand mark. No AI-generated hero art.
 - No sponsor or affiliate deal. The code section must not pretend otherwise.
 - Gambling-adjacent content needs age notices, disclosures and responsible-gambling links.
 - The brand may expand into sponsorship and rewards later. The identity should not paint us into a corner.
-- Copy must sound like a person. No em dashes, no AI vocabulary and no corporate filler.
+- Copy is third-person "my boy" community voice. No em dashes, no AI vocabulary and no corporate filler.
 
 ## Open questions
 
 - [ ] What exactly does chinnzz stream: games, casino content, variety?
 - [ ] How would he describe his community in one sentence?
-- [ ] What should the wordmark feel like?
-- [ ] Are there nicknames, catchphrases or community slang we should use?
+- [x] Voice direction: third-person "my boy" community voice, approved 2026-10-23.
+- [x] Logo: supplied 2026-10-23 (gold-on-black, 640x640 PNG).
+- [x] Sponsor email: business@chinnzz.com (mailbox pending domain purchase).
 - [ ] What is the target region and timezone for the schedule and age wording?
-- [ ] Does he want the unsponsored code shown at all, or hidden until a deal exists?
+- [ ] Does he want the unsponsored code shown at all, or hidden until a deal exists? (Default: inactive.)
 
 ## Related documents
 

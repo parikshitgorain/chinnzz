@@ -127,7 +127,7 @@ No numbers are promised. Baseline data does not exist yet. Real audience figures
 
 - [ ] Confirm the Stake.com profile URL and whether `CHINNZZ` is a referral code.
 - [ ] Confirm the default code state. Inactive is recommended until terms are clear.
-- [ ] Confirm the public sponsor email.
+- [x] Confirm the public sponsor email. business@chinnzz.com, approved 2026-10-23. Mailbox pending domain purchase.
 - [ ] Confirm Kick subscription eligibility.
 - [ ] Choose the tips provider.
 - [ ] Provide real audience numbers for the sponsor section, or hide the block.

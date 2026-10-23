@@ -103,7 +103,7 @@ Use lowercase values and keep the list short. Do not add UTMs to outbound links 
 
 - [ ] Does chinnzz want custom click events, or only page views?
 - [ ] Is a small paid analytics tool acceptable?
-- [ ] Does the sponsor email need a separate tracked address?
+- [x] Sponsor email is business@chinnzz.com, the tracked address for sponsor inquiries. Mailbox pending domain purchase.
 
 ## Related documents
 

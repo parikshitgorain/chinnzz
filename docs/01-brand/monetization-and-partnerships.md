@@ -1,10 +1,10 @@
 ---
 title: Monetization and Partnerships
-status: review
+status: approved
 owner: chinnzz
-updated: 2026-10-17
+updated: 2026-10-23
 audience: client
-version: 1.0
+version: 2.0
 ---
 
 # Monetization and Partnerships
@@ -61,7 +61,7 @@ Use one provider, not several. Ko-fi or StreamElements are the current candidate
 
 ## Sponsorship inquiries
 
-The site lists a public contact email for sponsors.
+The site lists a public contact email for sponsors: **business@chinnzz.com**. The mailbox is created once the domain is purchased and mail is set up. Until then the button links to the address and starts working the day the mailbox goes live.
 
 The section answers four questions fast:
 

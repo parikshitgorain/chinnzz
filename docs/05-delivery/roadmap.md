@@ -54,7 +54,7 @@ The domain is the most likely launch blocker. The site can be verified on a `*.p
 | Design direction | M5 to M7 | chinnzz |
 | Portrait, logo or wordmark, bio, schedule | Final build | chinnzz |
 | Stake code meaning and default state | Code card | chinnzz |
-| Sponsor email | Sponsor section | chinnzz |
+| Sponsor email | Sponsor section | chinnzz | business@chinnzz.com approved; mailbox pending domain |
 | Tips provider | Support section | chinnzz |
 | Kick subscription status | Support section | chinnzz |
 | Age and jurisdiction | Legal pages | chinnzz |

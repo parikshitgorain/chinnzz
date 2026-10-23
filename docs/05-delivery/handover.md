@@ -114,7 +114,7 @@ In the admin, use Preview. Outside the admin:
 | Kick, X and Discord links correct | Monthly | chinnzz |
 | Code state matches reality | Monthly and on change | chinnzz |
 | Support links working | Monthly | chinnzz |
-| Sponsor email working | Monthly | chinnzz |
+| Sponsor email working (business@chinnzz.com) | Monthly | chinnzz |
 | Schedule accurate | When it changes | chinnzz |
 | Kick live function working | Monthly | Parik or chinnzz |
 | Responsible-gambling resources | Quarterly | chinnzz |

@@ -32,7 +32,7 @@ Templates render these values. No metadata string is hardcoded in a template.
 
 ```html
 <title>chinnzz on Kick | Stream, Discord and Code</title>
-<meta name="description" content="Watch chinnzz live on Kick, join the Discord and find the current Stake code. Schedule, support and sponsor contact in one place." />
+<meta name="description" content="Watch my boy chinnzz live on Kick, join the Discord and find the current Stake code. Streams, community and support in one spot." />
 <link rel="canonical" href="https://chinnzz.com/" />
 <meta name="robots" content="index, follow" />
 <meta name="theme-color" content="#080506" />

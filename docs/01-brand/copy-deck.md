@@ -1,33 +1,35 @@
 ---
 title: Copy Deck
-status: review
+status: approved
 owner: Parik
-updated: 2026-10-17
+updated: 2026-10-23
 audience: client
-version: 2.0
+version: 3.0
 ---
 
 # Copy Deck: chinnzz.com v1
 
-> Source of truth for site copy. Items marked **PLACEHOLDER** need client input or approval. Final copy is stored in `content/` and edited in the admin. Do not invent text at build time.
+> Source of truth for site copy. Voice: third-person "my boy" community voice (see Voice and Tone v3.0). Items marked **DRAFT** need client sign-off. Final copy is stored in `content/` and edited in the admin. Do not invent text at build time.
 
 ## Global
 
 | Key | Copy | Status |
 |---|---|---|
 | Site name | chinnzz | confirmed |
-| Meta title | chinnzz: Live on Kick | Stream and Community | draft |
-| Meta description | Watch chinnzz live on Kick, join the Discord and see where he plays. Stream schedule, community and support in one place. | draft |
+| Voice | Third-person "my boy" community voice | approved 2026-10-23 |
+| Meta title | chinnzz on Kick | Stream, Discord and Code | approved |
+| Meta description | Watch my boy chinnzz live on Kick, join the Discord and find the current Stake code. Streams, community and support in one spot. | approved |
 | Canonical | https://chinnzz.com/ | pending domain |
-| OG title | chinnzz: Live on Kick | draft |
-| OG description | Streams, community and support. Everything chinnzz in one place. | draft |
-| Theme color | `#07070B` or the chosen direction value | pending design |
+| OG title | chinnzz on Kick | approved |
+| OG description | Streams, Discord and the current code. Everything my boy has going on, in one spot. | approved |
+| Theme color | `#0A0806` | approved |
+| Sponsor email | business@chinnzz.com | approved, mailbox pending domain |
 
 ## Header
 
 | Element | Copy |
 |---|---|
-| Wordmark | `CHINNZZ`, typographic until a logo is supplied |
+| Wordmark | Supplied logo (gold-on-black CHINNZZ mark) |
 | Nav | Home · Stream · Socials · Support · Work with me · FAQ |
 | Header CTA | Join Discord |
 | Mobile menu label | Menu |
@@ -36,14 +38,14 @@ version: 2.0
 
 | Element | Copy | Status |
 |---|---|---|
-| Eyebrow | KICK STREAMER · COMMUNITY | draft |
-| H1 | chinnzz live on Kick | draft |
-| Subhead | Streams, chat and the people who make it worth watching. Everything chinnzz lives here. | draft |
-| Primary CTA, offline | Watch on Kick | draft |
-| Primary CTA, live | Watch live on Kick | draft |
-| Secondary CTA | Join the Discord | draft |
-| Social strip label | Find me here | draft |
-| Avatar alt | chinnzz | placeholder until supplied |
+| Eyebrow | KICK STREAMER · COMMUNITY | approved |
+| H1 | chinnzz live on Kick | approved |
+| Subhead | Pull up. Live streams, loud chat and the people who make it worth watching. Everything my boy chinnzz has going on, all in one spot. | approved |
+| Primary CTA, offline | Watch on Kick | approved |
+| Primary CTA, live | Watch live on Kick | approved |
+| Secondary CTA | Join the Discord | approved |
+| Social strip label | Find my boy here | approved |
+| Avatar alt | chinnzz logo | approved |
 
 ### Live status
 
@@ -60,69 +62,69 @@ version: 2.0
 
 | Element | Copy | Status |
 |---|---|---|
-| Label | FIND ME HERE | draft |
-| Heading | Everywhere I post | draft |
+| Label | Find my boy here | approved |
+| Heading | Where to find my boy | approved |
 | Kick card | Watch live on Kick | confirmed link |
 | X card | Follow on X | confirmed link |
 | Discord card | Join the Discord | confirmed link |
 
 Only real accounts are listed. TikTok and YouTube are added only if chinnzz uses them.
 
-## Where I play
+## Where my boy plays
 
 | Element | Copy | Status |
 |---|---|---|
-| Label | WHERE I PLAY | draft |
+| Label | Where my boy plays | approved |
 | Heading | Stake.com | confirmed platform |
-| Body | I play on Stake.com. If there is a code, it is below. No bonus claims and no fake offers. | draft |
-| Active heading | My code | draft |
-| Inactive heading | No code live right now | draft |
-| Inactive body | The code goes here when there is something real to share. Follow on X or join the Discord and you will see it first. | draft |
+| Body | My boy plays on Stake.com. If there is a code, it is right below. No fake bonuses, no funny business. | approved |
+| Active heading | My boy's code | approved |
+| Inactive heading | No code live right now | approved |
+| Inactive body | No code live right now. When my boy has something real to share, it lands here first. Follow on X or join the Discord so you do not miss it. | approved |
 | Code display | `{CODE}` | placeholder |
-| Copy button | Copy code | draft |
-| Copied state | Code copied. See you in chat. | draft |
-| Stake button | Open Stake.com | draft |
+| Copy button | Copy code | approved |
+| Copied state | Code copied. See you in chat. | approved |
+| Stake button | Open Stake.com | approved |
 
 ### Code-state copy
 
 **Active, sponsored**
 
-> Use code `{CODE}` at Stake.com. chinnzz may earn a commission if you sign up through this link. It costs you nothing extra. 18+ or 21+ only. Play responsibly.
+> Use code `{CODE}` at Stake.com. My boy may earn a commission if you sign up through his link. Costs you nothing extra. 18+ or 21+ only. Play responsibly.
 
 **Active, unsponsored**
 
-> Code `{CODE}` at Stake.com. chinnzz is not sponsored. The code may earn him nothing. Only play if you are old enough and it is legal where you live.
+> Code `{CODE}` at Stake.com. My boy is not sponsored, so this may earn him nothing. Only play if you are old enough and it is legal where you live.
 
 **Inactive**
 
-> No code live right now. Follow on X or join the Discord. The code goes here when there is something real to share.
+> No code live right now. When my boy has something real to share, it lands here first. Follow on X or join the Discord so you do not miss it.
 
 The disclosure is always visible. It is never hidden in a tooltip.
 
-## Support the stream
+## Support my boy
 
 | Element | Copy | Status |
 |---|---|---|
-| Label | SUPPORT THE STREAM | draft |
-| Heading | Keep the stream going | draft |
-| Body | Kick subscriptions and tips help more than you think. Watching and saying hi is support too. No pressure. | draft |
-| Kick button | Subscribe on Kick | pending eligibility |
+| Label | Support my boy | approved |
+| Heading | Keep the stream going | approved |
+| Body | Kick subs and tips keep the streams coming. Watching and running up the chat is love too. No pressure. My boy appreciates all of it. | approved |
+| Kick button | Subscribe on Kick | approved |
 | Tips button | Tip on {PROVIDER} | pending provider |
-| Note | Tips are handled by {PROVIDER}. chinnzz.com does not process payments. | draft |
+| Note | Tips are handled by {PROVIDER}. chinnzz.com does not process payments. | approved |
 
 If Kick subscriptions are not available, hide the Kick button. If no tips provider is chosen, hide the tips button. Never show a disabled button with no explanation.
 
-## Work with me
+## Work with my boy
 
 | Element | Copy | Status |
 |---|---|---|
-| Label | WORK WITH ME | draft |
-| Heading | Sponsor the stream | draft |
-| Body | I make live content for a Kick audience. If you want to sponsor the stream or work together, email me with what you have in mind. | draft |
-| Email button | Email about sponsorship | pending email |
-| Audience heading | Audience | draft |
+| Label | Work with my boy | approved |
+| Heading | Sponsor the stream | approved |
+| Body | My boy makes live content for a Kick audience that actually shows up. Want to sponsor the stream or work together? Hit the email and tell me what you got in mind. | approved |
+| Email button | Email about sponsorship | approved, business@chinnzz.com |
+| Audience heading | Audience | approved |
 | Audience line | {real followers} followers and {real average viewers} average viewers. Last updated {date}. | placeholder, real numbers only |
-| Response note | I read every serious email. If it is a fit, I will reply with availability and rates. | draft |
+| Response note | Every serious email gets read. If it is a fit, you will hear back with availability and rates. | approved |
 
 Do not publish a rate card until chinnzz has real audience data and has set rates. Do not invent a media kit.
 
@@ -130,37 +132,37 @@ Do not publish a rate card until chinnzz has real audience data and has set rate
 
 | Element | Copy | Status |
 |---|---|---|
-| Label | THE COMMUNITY | draft |
-| Heading | More than a stream | draft |
-| Body | Stream pings, chat and the people who make the stream worth watching. Pull up. | draft |
-| CTA | Join the Discord | draft |
-| About label | ABOUT CHINNZZ | draft |
-| About heading | The person behind the stream | draft |
-| About body | [SHORT BIO. Two or three sentences in chinnzz's own voice. What he streams, why he does it and what the community is about.] | placeholder |
-| Social CTA | Follow on X | draft |
+| Label | The community | approved |
+| Heading | More than a stream | approved |
+| Body | Stream pings, chat and the people who make my boy's stream what it is. Pull up. | approved |
+| CTA | Join the Discord | approved |
+| About label | About my boy | approved |
+| About heading | The person behind the stream | approved |
+| About body | My boy chinnzz. Kick streamer. Loud plays, louder chat, and a community that actually shows up. Pull up to a stream and see what the noise is about. | DRAFT, waiting on chinnzz's own words |
+| Social CTA | Follow on X | approved |
 
 Member counts appear only when accurate. No fake numbers.
 
 ## FAQ
 
-| Question | Draft answer | Status |
+| Question | Answer | Status |
 |---|---|---|
-| Where do you stream? | On Kick: [kick.com/chinnzz](https://kick.com/chinnzz). | confirmed link |
-| When are you live? | Check the schedule above. Times are shown in {timezone}. Follow X for changes. | draft |
-| What is your code? | {CODE} on Stake.com. It is not sponsored right now, so it may earn me nothing. I will update this page if that changes. | placeholder |
-| Do you gamble on stream? | [CLIENT TO CONFIRM. Be honest and specific.] | placeholder |
-| Are you sponsored? | Not right now. If that changes, the code card and disclosure will say so. | draft |
-| Are you affiliated with the sites you link? | Some links may be affiliate links in the future. When that happens, I will say so clearly. Right now the Stake link is a normal link. | pending terms |
-| How old do I need to be? | 18+ or 21+ depending on where you are and the site's rules. | placeholder, confirm |
-| Where is the best place to keep up? | The Discord and X. | draft |
-| Can I sponsor the stream? | Yes. Email {SPONSOR EMAIL} with what you have in mind. | pending email |
+| Where does my boy stream? | On Kick. kick.com/chinnzz. That is the only place my boy goes live. | approved |
+| When is he live? | Check the live status at the top of this page. For last-minute changes, follow on X or join the Discord. Pings land there first. | approved |
+| What is his code? | CHINNZZ on Stake.com. Not sponsored right now, so it may earn my boy nothing. This page gets updated the day that changes. | approved |
+| Does he gamble on stream? | Yeah. My boy plays on Stake.com on stream for entertainment. Not financial advice, not a money plan. Just content. | approved |
+| Is he sponsored? | Not right now. When that changes, the code card and the disclosure will say so straight up. | approved |
+| Is he affiliated with the sites he links? | Some links might become affiliate links later. If that happens, my boy will say so clearly. Right now the Stake link is a normal link. | approved |
+| How old do I need to be? | 18+ or 21+, depending on where you live and the site's rules. | approved |
+| Where is the best place to keep up? | The Discord and X. That is where my boy posts. | approved |
+| Can I sponsor the stream? | Yeah. Hit business@chinnzz.com and say what you got in mind. | approved |
 
 ## Final CTA
 
 | Element | Copy |
 |---|---|
 | Heading | Catch the next stream |
-| Body | Follow on X and join the Discord. Live pings land there first. |
+| Body | Follow on X and join the Discord. When my boy goes live, the pings land there first. |
 | Primary | Join the Discord |
 | Secondary | Follow on X |
 
@@ -168,9 +170,9 @@ Member counts appear only when accurate. No fake numbers.
 
 | Element | Copy |
 |---|---|
-| Tagline | chinnzz. Live on Kick. |
+| Tagline | My boy chinnzz. Live on Kick. |
 | Socials | Kick · X · Discord |
-| Disclosure | chinnzz is not sponsored right now. If that changes, this page will say so. Some future links may be affiliate links. |
+| Disclosure | My boy is not sponsored right now. If that changes, this page will say so. Some future links may be affiliate links. |
 | Age notice | 18+ or 21+ only. Play responsibly. |
 | Responsible gambling link | Responsible gambling and support |
 | Legal links | Privacy · Terms |
@@ -188,13 +190,10 @@ Full drafts live in `docs/04-legal/`. The public versions live in `content/legal
 | `{CODE}` | Stake.com code, currently `CHINNZZ` | Client and Stake terms |
 | `{viewers}` | Live viewer count | Kick API |
 | `{stream title}` | Current stream title | Kick API |
-| `{timezone}` | Schedule timezone | Client |
 | `{PROVIDER}` | Tips provider name | Client |
-| `{SPONSOR EMAIL}` | Public sponsorship email | Client |
 | `{real followers}` | Real follower count | Client, verified |
 | `{real average viewers}` | Real average viewer count | Client, verified |
 | `{date}` | Date the audience numbers were checked | Admin |
-| `{SHORT BIO}` | About copy | Client |
 | `{year}` | Current year | Build |
 
 ## Related documents

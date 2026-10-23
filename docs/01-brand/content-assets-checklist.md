@@ -1,15 +1,15 @@
 ---
 title: Content and Assets Checklist
-status: review
+status: approved
 owner: chinnzz
-updated: 2026-10-17
+updated: 2026-10-23
 audience: client
-version: 2.0
+version: 3.0
 ---
 
 # Content and Assets Checklist
 
-Every item the site needs. Statuses: **have**, **needed**, **placeholder**, **approved**.
+Every item the site needs. Statuses: **have**, **needed**, **placeholder**, **approved**, **draft**.
 
 ## Confirmed
 
@@ -22,18 +22,20 @@ Every item the site needs. Statuses: **have**, **needed**, **placeholder**, **ap
 | Domain | chinnzz.com | needed, client to purchase |
 | Stake.com platform | Stake.com | have |
 | Code value | `CHINNZZ` | have, unsponsored |
+| Sponsor email | business@chinnzz.com | approved, mailbox pending domain purchase and mail setup |
+| Copy voice | Third-person "my boy" community voice | approved 2026-10-23 |
 | Client approval contact | Discord (`lechinnzz`) | have |
 
 ## Brand and imagery
 
 | Item | Spec | Owner | Status | Notes |
 |---|---|---|---|---|
-| Logo or wordmark | SVG preferred, PNG fallback | chinnzz | needed | Typographic placeholder can be used |
-| Favicon source | 512x512 PNG or SVG | Parik | placeholder | Derived from the wordmark |
-| Portrait or hero image | Portrait or 16:9, high resolution | chinnzz | needed | A real photo or stream still. No AI art. |
-| Avatar | Square, at least 512x512 | chinnzz | needed | Used in the hero and header |
-| Hero alt text | One sentence | Parik | placeholder | Depends on the final asset |
-| OG image | 1200x630 PNG or JPG | Parik | placeholder | Built from the chosen direction |
+| Logo or wordmark | Supplied gold-on-black PNG, 640x640 | chinnzz | have | Used as hero avatar, header mark, favicon, OG image |
+| Favicon source | Derived from the logo (SVG + ICO) | Parik | have | In `public/` |
+| Portrait or hero image | Logo serves as the avatar | chinnzz | have | A real photo can replace it later. No AI art. |
+| Avatar | Logo, 640x640 | chinnzz | have | Used in the hero and header |
+| Hero alt text | "chinnzz logo" | Parik | have | |
+| OG image | 1200x630 PNG, logo on near-black with gold frame | Parik | have | In `content/media/` |
 | Channel banner | High-resolution original | chinnzz | needed | Used only if it helps the about section |
 | Stream stills | Two or three real frames | chinnzz | needed | For the live and community sections |
 
@@ -41,12 +43,12 @@ Every item the site needs. Statuses: **have**, **needed**, **placeholder**, **ap
 
 | Item | Owner | Status | Notes |
 |---|---|---|---|
-| Short bio, two or three sentences in his own voice | chinnzz | needed | Used in About and metadata |
-| One-line community description | chinnzz | needed | Used in the community section |
+| Short bio, two or three sentences | chinnzz | draft | Draft written in the my-boy voice, waiting on chinnzz's own words |
+| One-line community description | Parik | have | "Stream pings, chat and the people who make my boy's stream what it is. Pull up." |
 | What he streams | chinnzz | needed | FAQ and about |
-| Catchphrases or community slang | chinnzz | optional | Only if authentic |
-| Schedule, days and times, plus timezone | chinnzz | needed | Can launch with an honest empty state |
-| FAQ answers that need client input | chinnzz | needed | Especially the gambling question |
+| Catchphrases or community slang | chinnzz | approved | "my boy" voice approved 2026-10-23 |
+| Schedule, days and times, plus timezone | chinnzz | needed | Live status covers v1; schedule can follow |
+| FAQ answers that need client input | Parik | have | Written in the my-boy voice, client approved the direction |
 | Real audience numbers | chinnzz | needed | Only if the sponsor audience block is shown |
 
 ## Links and code
@@ -55,11 +57,11 @@ Every item the site needs. Statuses: **have**, **needed**, **placeholder**, **ap
 |---|---|---|---|
 | Stake.com profile or referral URL | chinnzz | needed | Confirm the exact URL |
 | Code `CHINNZZ` status | chinnzz and Stake | unsponsored | Do not claim a deal |
-| Default code state | chinnzz | needed | Inactive recommended |
+| Default code state | chinnzz | approved | Inactive until the Stake relationship and code terms are confirmed |
 | Code terms | chinnzz and Stake | needed | Confirm whether the code tracks anything |
-| Kick subscription eligibility | chinnzz | needed | Determines whether the Kick button shows |
+| Kick subscription eligibility | chinnzz | have | Button live, links to the Kick channel |
 | Tips provider and URL | chinnzz | needed | Ko-fi, StreamElements or other |
-| Sponsor email | chinnzz | needed | Public contact for brands |
+| Sponsor email | chinnzz | approved | business@chinnzz.com, mailbox pending domain purchase and mail setup |
 | Discord invite never-expire setting | chinnzz | needed | Check server invite settings |
 
 ## Legal and compliance inputs
@@ -102,11 +104,11 @@ Every item the site needs. Statuses: **have**, **needed**, **placeholder**, **ap
 ## Launch blockers
 
 1. Domain purchased in chinnzz's name.
-2. Sponsor email confirmed or the section hidden.
-3. Code state confirmed. Inactive is the safe default.
+2. Mailbox created for business@chinnzz.com (after the domain purchase).
+3. Code state confirmed. Inactive is the default.
 4. Age and jurisdiction wording confirmed.
 5. Legal drafts reviewed.
-6. Real portrait or a deliberate typographic fallback approved.
+6. Bio: draft written, waiting on chinnzz's own words.
 7. Discord invite confirmed as never expiring.
 8. Admin login and VPS details confirmed for M11.
 

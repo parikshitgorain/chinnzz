@@ -22,7 +22,7 @@ The admin adds a small server to look after: updates, backups, certificates and 
 - [ ] Kick, X, Discord, Stake and tips links resolve.
 - [ ] Code card state matches reality: sponsored, unsponsored or inactive.
 - [ ] Disclosure text matches the state.
-- [ ] Sponsor email receives mail.
+- [ ] business@chinnzz.com mailbox receives mail (after domain purchase and mail setup).
 - [ ] Schedule matches actual streams.
 - [ ] No broken images or 404s.
 - [ ] `/api/live` responds. Check for upstream changes.
