@@ -4,10 +4,12 @@ status: approved
 owner: Parik
 updated: 2026-10-23
 audience: client
-version: 3.0
+version: 3.1
 ---
 
 # Copy Deck: chinnzz.com v1
+
+> 2026-10-23: code card is ACTIVE (unsponsored) per client instruction. `stake.state` is `activeUnsponsored`, code `CHINNZZ`. About bio finalized as static copy until chinnzz sends his own words.
 
 > Source of truth for site copy. Voice: third-person "my boy" community voice (see Voice and Tone v3.0). Items marked **DRAFT** need client sign-off. Final copy is stored in `content/` and edited in the admin. Do not invent text at build time.
 
@@ -80,7 +82,7 @@ Only real accounts are listed. TikTok and YouTube are added only if chinnzz uses
 | Active heading | My boy's code | approved |
 | Inactive heading | No code live right now | approved |
 | Inactive body | No code live right now. When my boy has something real to share, it lands here first. Follow on X or join the Discord so you do not miss it. | approved |
-| Code display | `{CODE}` | placeholder |
+| Code display | `CHINNZZ` | live, active unsponsored since 2026-10-23 |
 | Copy button | Copy code | approved |
 | Copied state | Code copied. See you in chat. | approved |
 | Stake button | Open Stake.com | approved |
@@ -138,7 +140,7 @@ Do not publish a rate card until chinnzz has real audience data and has set rate
 | CTA | Join the Discord | approved |
 | About label | About my boy | approved |
 | About heading | The person behind the stream | approved |
-| About body | My boy chinnzz. Kick streamer. Loud plays, louder chat, and a community that actually shows up. Pull up to a stream and see what the noise is about. | DRAFT, waiting on chinnzz's own words |
+| About body | My boy chinnzz. Kick streamer. Loud plays, louder chat, and a community that actually shows up. Pull up to a stream and see what the noise is about. | approved static, 2026-10-23 (replace with chinnzz's own words when he sends them) |
 | Social CTA | Follow on X | approved |
 
 Member counts appear only when accurate. No fake numbers.

@@ -27,7 +27,7 @@ version: 2.0
 | M7 | Public build | Eleventy site from `content/` | Parik | Matches approved design | in progress |
 | M8 | Kick live | `/api/live` and the three states | Parik | Live, offline and failure verified | not started |
 | M9 | Admin with local adapter | Express, EJS, SQLite, full content editing | Parik | Edit and publish from a phone | not started |
-| M10 | Public launch | Domain, Vercel, QA, go live | Parik and chinnzz | Live on chinnzz.com | blocked on domain |
+| M10 | Public launch | Domain, Vercel, QA, go live | Parik and chinnzz | Live on chinnzz.com | domain pointed 2026-10-23, live |
 | M11 | VPS admin | Real admin host, auth, publish hook | Parik | Admin live, fallback verified | after launch |
 | M12 | Handover | Training, access, documentation walkthrough | Parik | chinnzz can edit and publish alone | not started |
 
@@ -59,7 +59,7 @@ The domain is the most likely launch blocker. The site can be verified on a `*.p
 | Kick subscription status | Support section | chinnzz |
 | Age and jurisdiction | Legal pages | chinnzz |
 | Domain in chinnzz's name | Public launch | chinnzz |
-| Cloudflare and GitHub access | M10 | both |
+| Vercel and GitHub access | M10 | both |
 | VPS and admin host | M11 | both |
 | Legal review | Launch | chinnzz |
 

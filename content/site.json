@@ -1,1 +1,53 @@
-{"canonicalBase":"https://chinnzz.com","discord":{"handle":"discord.gg/T6Nx6fAMYk","url":"https://discord.gg/T6Nx6fAMYk"},"domain":"chinnzz.com","footer":{"ageNotice":"18+ or 21+ only. Play responsibly.","builtBy":"Site by Parik","disclosure":"My boy is not sponsored right now. If that changes, this page will say so. Some future links may be affiliate links.","tagline":"My boy chinnzz. Live on Kick."},"kick":{"slug":"chinnzz","url":"https://kick.com/chinnzz"},"kickSubscriptions":{"eligible":true,"url":"https://kick.com/chinnzz"},"media":{"favicon":"/favicon.svg","logo":"/media/chinnzz-logo.png","ogImage":"/media/og-image.png"},"name":"chinnzz","seo":{"description":"Watch my boy chinnzz live on Kick, join the Discord and find the current Stake code. Streams, community and support in one spot.","ogDescription":"Streams, Discord and the current code. Everything my boy has going on, in one spot.","ogTitle":"chinnzz on Kick","themeColor":"#0A0806","title":"chinnzz on Kick | Stream, Discord and Code"},"sponsorEmail":"business@chinnzz.com","stake":{"code":"CHINNZZ","state":"inactive","url":"https://stake.com"},"theme":{"direction":"C","name":"Gold Noir"},"tips":{"provider":"","url":""},"x":{"handle":"x.com/lechinnzz","url":"https://x.com/lechinnzz"}}
+{
+ "canonicalBase": "https://chinnzz.com",
+ "discord": {
+  "handle": "discord.gg/T6Nx6fAMYk",
+  "url": "https://discord.gg/T6Nx6fAMYk"
+ },
+ "domain": "chinnzz.com",
+ "footer": {
+  "ageNotice": "18+ or 21+ only. Play responsibly.",
+  "builtBy": "Site by Parik",
+  "disclosure": "My boy is not sponsored right now. If that changes, this page will say so. Some future links may be affiliate links.",
+  "tagline": "My boy chinnzz. Live on Kick."
+ },
+ "kick": {
+  "slug": "chinnzz",
+  "url": "https://kick.com/chinnzz"
+ },
+ "kickSubscriptions": {
+  "eligible": true,
+  "url": "https://kick.com/chinnzz"
+ },
+ "media": {
+  "favicon": "/favicon.svg",
+  "logo": "/media/chinnzz-logo.png",
+  "ogImage": "/media/og-image.png"
+ },
+ "name": "chinnzz",
+ "seo": {
+  "description": "Watch my boy chinnzz live on Kick, join the Discord and find the current Stake code. Streams, community and support in one spot.",
+  "ogDescription": "Streams, Discord and the current code. Everything my boy has going on, in one spot.",
+  "ogTitle": "chinnzz on Kick",
+  "themeColor": "#0A0806",
+  "title": "chinnzz on Kick | Stream, Discord and Code"
+ },
+ "sponsorEmail": "business@chinnzz.com",
+ "stake": {
+  "code": "CHINNZZ",
+  "state": "activeUnsponsored",
+  "url": "https://stake.com"
+ },
+ "theme": {
+  "direction": "C",
+  "name": "Gold Noir"
+ },
+ "tips": {
+  "provider": "",
+  "url": ""
+ },
+ "x": {
+  "handle": "x.com/lechinnzz",
+  "url": "https://x.com/lechinnzz"
+ }
+}

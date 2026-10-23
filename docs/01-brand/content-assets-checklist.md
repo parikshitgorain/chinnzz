@@ -43,7 +43,7 @@ Every item the site needs. Statuses: **have**, **needed**, **placeholder**, **ap
 
 | Item | Owner | Status | Notes |
 |---|---|---|---|
-| Short bio, two or three sentences | chinnzz | draft | Draft written in the my-boy voice, waiting on chinnzz's own words |
+| Short bio, two or three sentences | chinnzz | final static | Static my-boy bio live 2026-10-23; replace with chinnzz's own words when he sends them |
 | One-line community description | Parik | have | "Stream pings, chat and the people who make my boy's stream what it is. Pull up." |
 | What he streams | chinnzz | needed | FAQ and about |
 | Catchphrases or community slang | chinnzz | approved | "my boy" voice approved 2026-10-23 |
@@ -57,7 +57,7 @@ Every item the site needs. Statuses: **have**, **needed**, **placeholder**, **ap
 |---|---|---|---|
 | Stake.com profile or referral URL | chinnzz | needed | Confirm the exact URL |
 | Code `CHINNZZ` status | chinnzz and Stake | unsponsored | Do not claim a deal |
-| Default code state | chinnzz | approved | Inactive until the Stake relationship and code terms are confirmed |
+| Default code state | chinnzz | approved | Active (unsponsored) since 2026-10-23 per client instruction |
 | Code terms | chinnzz and Stake | needed | Confirm whether the code tracks anything |
 | Kick subscription eligibility | chinnzz | have | Button live, links to the Kick channel |
 | Tips provider and URL | chinnzz | needed | Ko-fi, StreamElements or other |
@@ -105,10 +105,10 @@ Every item the site needs. Statuses: **have**, **needed**, **placeholder**, **ap
 
 1. Domain purchased in chinnzz's name.
 2. Mailbox created for business@chinnzz.com (after the domain purchase).
-3. Code state confirmed. Inactive is the default.
+3. Code state confirmed. Active (unsponsored) since 2026-10-23.
 4. Age and jurisdiction wording confirmed.
 5. Legal drafts reviewed.
-6. Bio: draft written, waiting on chinnzz's own words.
+6. Bio: static final copy live; replace with chinnzz's own words when he sends them.
 7. Discord invite confirmed as never expiring.
 8. Admin login and VPS details confirmed for M11.
 

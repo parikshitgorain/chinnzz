@@ -8,7 +8,7 @@ lastUpdated: "2026-10-23"
 
 ## Who we are
 
-This website is operated by **[LEGAL NAME OR ENTITY]**, referred to as we, us or our. Contact: **[EMAIL]**.
+This website is operated by **chinnzz**, referred to as we, us or our. Contact: **business@chinnzz.com**.
 
 The site is a personal hub for the streamer **chinnzz**. It does not provide gambling services and does not process deposits or wagers.
 
@@ -26,19 +26,19 @@ If you tip or subscribe, that happens on Kick or the tips provider. We do not re
 
 ### Information collected automatically
 
-When you visit, Cloudflare processes standard technical data needed to serve the site:
+When you visit, our hosting provider processes standard technical data needed to serve the site:
 
-- IP address, processed by Cloudflare
+- IP address, processed by the hosting provider
 - Browser and device information
 - Pages requested and timestamps
 - Referring page
 - Approximate location derived from IP
 
-This data is used for security, reliability and aggregate traffic measurement. Retention is controlled by Cloudflare's configuration and terms.
+This data is used for security, reliability and aggregate traffic measurement. Retention follows the hosting provider's standard configuration and terms.
 
 ### Analytics
 
-Cloudflare Web Analytics, which is cookieless and provides aggregate page views.
+Aggregate, cookieless page-view analytics provided by the hosting platform.
 
 ### Cookies
 
@@ -48,7 +48,7 @@ Third-party sites linked from this site, including Stake.com, Kick, X and the ti
 
 ### Server logs
 
-Cloudflare keeps short lived security and request logs under its own terms.
+The hosting platform keeps short lived security and request logs under its own terms.
 
 ## How we use information
 
@@ -70,7 +70,7 @@ We do not sell personal information. We do not use it for targeted advertising.
 
 We share data only with:
 
-- **Cloudflare:** hosting, CDN, security and optional analytics.
+- **The hosting platform (Vercel):** hosting, CDN, security and optional analytics.
 - **Kick and the tips provider:** only when you choose to use them, under their policies.
 - **Stake.com and other linked services:** only when you click through, under their policies.
 - **Authorities:** where required by law.
@@ -79,21 +79,21 @@ We do not sell or rent personal data.
 
 ## International transfers
 
-Cloudflare and any analytics provider may process data in other countries, using appropriate safeguards where required. [CONFIRM WITH PROVIDERS AND COUNSEL]
+The hosting provider and any analytics provider may process data in other countries, under the provider's terms and appropriate safeguards where required.
 
 ## Retention
 
-- Server logs: per Cloudflare's configuration. [SPECIFY]
-- Analytics: aggregate only. [SPECIFY]
+- Server logs: per the hosting provider's standard retention.
+- Analytics: aggregate only, no per-visitor profiles.
 - Email: as long as needed to respond and keep a record.
 
 ## Your rights
 
-Depending on where you live, you may have the right to access, correct, delete, restrict or object to processing, and to data portability. Contact **[EMAIL]**. You may also complain to your local data protection authority.
+Depending on where you live, you may have the right to access, correct, delete, restrict or object to processing, and to data portability. Contact **business@chinnzz.com**. You may also complain to your local data protection authority.
 
 ## Children
 
-The site is for adults of legal gambling age, **18+ or 21+ depending on where you live**. It is not directed at children and we do not knowingly collect their information. If you believe a child has sent information, contact **[EMAIL]**.
+The site is for adults of legal gambling age, **18+ or 21+ depending on where you live**. It is not directed at children and we do not knowingly collect their information. If you believe a child has sent information, contact **business@chinnzz.com**.
 
 ## Security
 
@@ -109,5 +109,5 @@ We may update this policy. The last updated date will change. Material changes w
 
 ## Contact
 
-**[LEGAL NAME OR ENTITY]**
-**[EMAIL]**
+**chinnzz**
+**business@chinnzz.com**

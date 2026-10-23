@@ -12,7 +12,7 @@ By accessing **chinnzz.com**, you agree to these Terms. If you do not agree, do 
 
 ## 2. Who we are
 
-The site is operated by **[LEGAL NAME OR ENTITY]**, referred to as we or us. It is a personal hub for the streamer chinnzz. Contact: **[EMAIL]**.
+The site is operated by **chinnzz**, referred to as we or us. It is a personal hub for the streamer chinnzz. Contact: **business@chinnzz.com**.
 
 ## 3. Informational purpose
 
@@ -46,7 +46,7 @@ The site links to Kick, X, Discord, Stake.com and a tips provider. We do not con
 
 ## 9. Intellectual property
 
-The site's original content, design and branding are owned by **[OWNER OR ENTITY]** or used with permission. You may not copy, reproduce or redistribute site content for commercial use without permission. Third-party names and logos belong to their owners.
+The site's original content, design and branding are owned by **chinnzz** or used with permission. You may not copy, reproduce or redistribute site content for commercial use without permission. Third-party names and logos belong to their owners.
 
 ## 10. Acceptable use
 
@@ -69,7 +69,7 @@ To the fullest extent allowed by law, we are not liable for indirect, incidental
 
 ## 13. Indemnity
 
-You agree to indemnify and hold harmless **[LEGAL NAME OR ENTITY]** from claims arising from your misuse of the site or your breach of these Terms, to the extent allowed by law.
+You agree to indemnify and hold harmless **chinnzz** from claims arising from your misuse of the site or your breach of these Terms, to the extent allowed by law.
 
 ## 14. Responsible gambling
 
@@ -81,9 +81,9 @@ We may update these Terms. Continued use after a change means you accept the upd
 
 ## 16. Governing law
 
-These Terms are governed by the laws of **[JURISDICTION]**, without regard to conflict of law rules. Disputes will be handled in the courts of **[JURISDICTION]**, unless mandatory local law says otherwise.
+These Terms are governed by applicable law. If there is a dispute, it will be handled under the law of the place where the operator is based, unless your local law requires otherwise.
 
 ## 17. Contact
 
-**[LEGAL NAME OR ENTITY]**
-**[EMAIL]**
+**chinnzz**
+**business@chinnzz.com**
